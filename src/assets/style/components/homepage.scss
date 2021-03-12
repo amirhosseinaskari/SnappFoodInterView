@@ -1,0 +1,29 @@
+@import '../theme/theme';
+%childWidth {
+    width: 400px;
+    max-width: calc(100% - 60px);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    .logo {
+        @extend %childWidth;
+        margin-bottom: 40px;
+    }
+    .container__nextBtn--pink {
+        @extend %childWidth;
+        padding: 12px;
+        font-family: $customFont;
+        font-size: 18px;
+        text-align: center;
+        color: white;
+        border-radius: 5px;
+        background-color: $pink;
+        text-decoration: none;
+    }
+}
