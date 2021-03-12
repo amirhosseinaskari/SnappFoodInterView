@@ -20,10 +20,13 @@ Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ## for running the project
-## npm i react
-## npm i react-scripts
-## npm i react-dom
-## npm i react-redux
-## npm i sass
-## npm i redux-saga
-## npm i react-router
+## first install these packages:
+### npm i react
+### npm i react-scripts
+### npm i react-dom
+### npm i react-redux
+### npm i sass
+### npm i redux-saga
+### npm i react-router
+## second: npm start
+
