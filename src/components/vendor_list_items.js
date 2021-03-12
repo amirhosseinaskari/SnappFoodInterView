@@ -11,11 +11,11 @@ function VendorListItems(props) {
                 <ul className="vendorList">
                     {Array.prototype.map.call(list,(item , index) => 
                         <li key={index}>
-                            <a className="vendorList__link" href="#">
+                            <a title={item.data.title} className="vendorList__link" href="#">
                             <section className="vendorList__card">
                                 <div className="vendorList__card__total-info">
                                     <div className="image">
-                                        <img src={item.data.defLogo} />
+                                        <img alt={item.data.title} src={item.data.defLogo} />
                                     </div>
                                     <div className="title">
                                         <h2>{item.data.title}</h2>

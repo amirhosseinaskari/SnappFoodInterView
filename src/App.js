@@ -1,8 +1,6 @@
 import React from 'react';
 import HomePage from './components/homepage';
 import VendorList from './components/vendor_list';
-import {store} from './store/store';
-import vendorListReducer from './reducers/vendorlists';
 import {
   BrowserRouter as Router,
   Switch,

@@ -6,7 +6,7 @@ import vendorListReducer from '../reducers/vendorlists';
 import VendorListItems from './vendor_list_items';
 function VendorList(props) {
     useEffect(() => {
-        console.log('hi');
+      
         // fetch vendor list (it is controlled with a Saga Middleware)
         // watch fetch vendor list => fetch vendor list => add vendor list
         store.dispatch(vendorListReducer.actions.fetchVendorList({

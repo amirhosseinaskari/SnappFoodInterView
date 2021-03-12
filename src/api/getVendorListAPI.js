@@ -5,7 +5,7 @@ import axios from 'axios';
  * @param pageNumber this arg set with each request (when user scrolled)
  */
 export const getVendorListAPI = (url, pageNumber) => {
-  console.log(pageNumber);
+ 
    const requst = axios({
     method: 'get',
     url,
